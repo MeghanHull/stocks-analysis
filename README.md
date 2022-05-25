@@ -13,6 +13,10 @@ Analysis of green energy stocks for Steve (Rice Boot Camp)
 ### Code Performance (Original vs. Remastered)
 
 ![green_stocks_2017.png](Resources/green_stocks_2017.png)
+![VBA_Challenge_2017.PNG](Resources/VBA_Challenge_2017.PNG)
+
+![green_stocks_2018.PNG](Resources/green_stocks_2018.PNG)
+![VBA_Challenge_2018.PNG](Resources/VBA_Challenge_2018.PNG)
 
 
 ## Summary
