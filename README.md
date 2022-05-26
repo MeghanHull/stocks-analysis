@@ -13,7 +13,7 @@ Analysis of green energy stocks for Steve (Rice Boot Camp)
 ### Code Performance (Original vs. Refactored)
 The original code ran
 
-<img width="450" src="Resources/green_stocks_2017.png"> <img width="450" src="Resources/green_stocks_2018.PNG">
+<img width="500" src="Resources/green_stocks_2017.png"> <img width="500" src="Resources/green_stocks_2018.PNG">
 
 The Visual Basic Macro **AllStocksAnalysis** is available in Module Mod_2p3_AllStocksAnalysis of the Excel file:
 ![VBA_Challenge.xlsm](VBA_Challenge.xlsm)
