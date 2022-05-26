@@ -62,13 +62,12 @@ The full code for the VBA Macro **AllStocksAnalysis** is available in Module ***
 [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
 
 ### Code Performance (Original vs. Refactored)
-As shown in the messages below, the original **AllStocksAnalysis** code analyzes a year's worth of stock data for twelve stocks in slightly less than 0.5 seconds. 
+As shown in the messages below, the original **AllStocksAnalysis** code analyzes a year's worth of stock data for twelve stocks in slightly less than 0.5 seconds.  For the refactored **AllStocksAnalysisRefractored** code, the execution time was nearly an order of magnitude faster.
 
 <img width="500" src="Resources/green_stocks_2017.png"> <img width="500" src="Resources/green_stocks_2018.PNG">
 <sub>The VBA Macro **AllStocksAnalysis** is available in Module ***Mod_2p3_AllStocksAnalysis*** of the Excel file:
 [VBA_Challenge.xlsm](VBA_Challenge.xlsm)</sub>
 
-When refactoring the code, 
 
 <img width="500" src="Resources/VBA_Challenge_2017.PNG"> <img width="500" src="Resources/VBA_Challenge_2018.PNG">
 <sub>The VBA Macro **AllStocksAnalysisRefractored** is available in Module ***Mod_2_Challenge*** of the Excel file:
