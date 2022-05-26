@@ -74,5 +74,12 @@ As shown in the messages below, the original **AllStocksAnalysis** code analyzes
 [VBA_Challenge.xlsm](VBA_Challenge.xlsm)</sub>
 
 ## Summary
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+In general, refactoring code can potentially:
+  1. Improve code efficiency by removal of redundancies and duplications.
+  2. Extend code functionality by reducing hardcoded and "magic" numbers.
+  3. Make the code easier to read with a cleaner structure. 
+Conversely, refactoring can have the following disadvantages:
+  1. The time spent refactoring may not may be longer than running the old code.
+  2. If the original code is large or especially complex, refactoring may introduce errors that hard to track down.
+
+In this particular case, the improvement of code performance is not significant if only run for the original 12 stocks.  However, the benefits are far more substantial if the new code is used to analyze additional stocks.  To start, with the original hardcoded tickers array, the code would have to modified whenever a new stock was to be analyzed.  It is also expected that the execution time will increase for both macros as more stocks are added to the stock list.  If thousands of stocks are analyzed, the potential execution time savings are much higher.
